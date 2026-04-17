@@ -1,5 +1,6 @@
 # Project Name: Daraz Mobile Phones Web Scraper
-
+###  GitHub Repository
+https://github.com/ray0123321/daraz-scraper
 ### 1. Project Overview
 * **Target Website:** https://www.daraz.pk
 * **Data Fields Extracted:** Product Title, Price, Page Number
@@ -8,7 +9,7 @@
 This project is a web scraping tool that extracts mobile phone product data from Daraz search results. It collects multiple pages of products and stores them in a structured CSV format for analysis.
 
 ### 2. Setup Instructions
-1. Clone this repo: `git clone [Your GitHub Repository Link]`
+1. Clone this repo: `git clone https://github.com/ray0123321/daraz-scraper.git`
 2. Install dependencies: `pip install -r requirements.txt`
 3. Run script: `python scraper.py`
 
