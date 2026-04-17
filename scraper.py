@@ -26,8 +26,8 @@ for page in range(1, 6):
 
     print(f"\nScraping page {page}...")
 
-    # wait for page to load (IMPORTANT)
-    time.sleep(10)
+    # wait for page to load 
+    time.sleep(6)
 
     products = driver.find_elements(By.CSS_SELECTOR, "div.Bm3ON")
 
@@ -57,8 +57,8 @@ df.to_csv("data.csv", index=False)
 print("\nScraping completed ✔")
 print(f"Total products collected: {len(data)}")
 
-# wait before closing (teacher requirement)
-time.sleep(10)
+# wait before closing 
+time.sleep(6)
 
 driver.quit()
 
